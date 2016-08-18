@@ -1,0 +1,82 @@
+$panel-color: #66ccff;
+$hint-color: #a1a1a1;
+
+.user-login {
+  background-color: #a1a1a1;
+  width: 100%;
+  height: 720px;
+  .panel {
+    overflow: auto;
+    float: right;
+    height: 60%;
+    background-color: $panel-color;
+    text-align: center;
+    margin-right: 80px;
+    margin-top: 200px;
+
+    .heading {
+      margin: auto;
+      padding: 10px;
+    }
+
+    .body {
+      text-align: center;
+      .input-group {
+        margin: auto;
+        border-color: #a1a1a1;
+        span {
+          width: 40px;
+        }
+      }
+      .form-control {
+        color: $hint-color;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        &:focus {
+          border-color: #ed5565 !important;
+        }
+      }
+
+      .button {
+        padding: 30px 0px 0px 0px;
+        float: none;
+        margin: auto;
+        text-align: center;
+        .btn-danger {
+          height: 40px;
+          width: 100%;
+        }
+      }
+
+      .assist {
+        margin: auto;
+        float: none;
+        padding: 10px 0px 10px 0px;
+        color: $hint-color;
+        .forgot {
+          float: left;
+          margin-left: 5px;
+        }
+        .sign-up {
+          float: right;
+          margin-right: 5px;
+        }
+      }
+    }
+    .footer {
+      padding: 0%;
+      border: hidden;
+    }
+  }
+}
+
+.fill-panel-blank {
+  background-color: $panel-color;
+  margin: 10px;
+}
+
+
+
+
+

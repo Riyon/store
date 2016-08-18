@@ -1,0 +1,31 @@
+{
+  "name": "CloudSCM-STORE-WEB",
+  "version": "0.0.1",
+  "description": "CloudSCM-STORE-WEB",
+  "author": {
+    "name": "chenyulong",
+    "email": "chenyulong@hd123.com"
+  },
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "autoprefixer": "^6.3.3",
+    "cssgrace": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-csso": "^1.0.1",
+    "gulp-jsdoc3": "^0.1.1",
+    "gulp-minify-html": "^1.0.5",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rev": "^7.0.0",
+    "gulp-rev-all": "^0.8.22",
+    "gulp-rev-collector": "^1.0.2",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-webpack": "^1.5.0"
+  }
+}
